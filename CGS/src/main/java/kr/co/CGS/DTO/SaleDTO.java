@@ -12,7 +12,7 @@ public class SaleDTO {
 	int sale_price;
 	String paycard_num;
 	String refund_type;
-	int sale_count;
+	int sale_cnt;
 	int discount_price;
 	String discount_type;
 	int final_price;
@@ -86,11 +86,11 @@ public class SaleDTO {
 	}
 	
 	//sale_count
-	public int getSale_count() {
-		return sale_count;
+	public int getSale_cnt() {
+		return sale_cnt;
 	}
-	public void setSale_count(int sale_count) {
-		this.sale_count = sale_count;
+	public void setSale_cnt(int sale_cnt) {
+		this.sale_cnt = sale_cnt;
 	}
 	
 	//discount_price
