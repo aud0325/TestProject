@@ -73,7 +73,7 @@ public class SaleDTO {
 	public String getPaycard_num() {
 		return paycard_num;
 	}
-	public void setPaycard_number(String paycard_num) {
+	public void setPaycard_num(String paycard_num) {
 		this.paycard_num = paycard_num;
 	}
 	
