@@ -10,7 +10,7 @@ public class SaleDTO {
 	String sale_type;
 	String member_type;
 	int sale_price;
-	String paycard_number;
+	String paycard_num;
 	String refund_type;
 	int sale_count;
 	int discount_price;
@@ -70,11 +70,11 @@ public class SaleDTO {
 	}
 	
 	//paycard_num
-	public String getPaycard_number() {
-		return paycard_number;
+	public String getPaycard_num() {
+		return paycard_num;
 	}
-	public void setPaycard_number(String paycard_number) {
-		this.paycard_number = paycard_number;
+	public void setPaycard_number(String paycard_num) {
+		this.paycard_num = paycard_num;
 	}
 	
 	//refund_type
