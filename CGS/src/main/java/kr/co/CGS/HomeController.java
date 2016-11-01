@@ -41,4 +41,16 @@ public class HomeController {
 	return "index";
 	}
 	
+	@RequestMapping("/movie")
+	public String movie(Model model){
+		System.out.println("movie()");
+		return "movie";
+	}
+	
+	@RequestMapping("/movie2")
+	public String movie2(Model model){
+		System.out.println("movie2()");
+		return "movie2";
+	}
+		
 }
