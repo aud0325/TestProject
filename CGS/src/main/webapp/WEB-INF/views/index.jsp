@@ -1,14 +1,14 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
+<%@ page language="java" contentType="text/jsp; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE jsp PUBLIC "-//W3C//DTD jsp 4.01 Transitional//EN" "http://www.w3.org/TR/jsp4/loose.dtd">
 <%String ctx = request.getContextPath(); %>
-<html>
+<jsp>
 <head>
 	<!-- Basic Page Needs -->
         <meta charset="utf-8">
         <title>AMovie</title>
         <meta name="description" content="A Template by Gozha.net">
-        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="keywords" content="jsp, CSS, JavaScript">
         <meta name="author" content="Gozha.net">
     
     <!-- Mobile Specific Metas-->
@@ -40,25 +40,25 @@
         <!-- Modernizr --> 
         <script src="<%=ctx %>/resources/js/external/modernizr.custom.js"></script>
     
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries --> 
+    <!-- jsp5 shim and Respond.js IE8 support of jsp5 elements and media queries --> 
     <!--[if lt IE 9]> 
-    	<script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.js"></script> 
+    	<script src="http://cdnjs.cloudflare.com/ajax/libs/jsp5shiv/3.7/jsp5shiv.js"></script> 
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.3.0/respond.js"></script>		
     <![endif]-->
 </head>
 
 <body>
     <div class="wrapper">
-        <!-- Banner -->
+        <!-- Banner 
         <div class="banner-top">
             <center><img alt='top banner' src="<%=ctx %>/resources/images/banners/1026_980x80.jpg" ></center>
-        </div>
+        </div>-->
 
         <!-- Header section -->
         <header class="header-wrapper header-wrapper--home">
             <div class="container">
                 <!-- Logo link-->
-                <a href='index.html' class="logo">
+                <a href='index.jsp' class="logo">
                     <img alt='logo' src="<%=ctx %>/resources/images/logo.png">
                 </a>
                 
@@ -79,58 +79,58 @@
                             <span class="sub-nav-toggle plus"></span>
                             <a href="#">Pages</a>
                             <ul>
-<!--                                 <li class="menu__nav-item"><a href="movie-page-left.html">Single movie (rigth sidebar)</a></li> -->
-<!--                                 <li class="menu__nav-item"><a href="movie-page-right.html">Single movie (left sidebar)</a></li> -->
-                                <li class="menu__nav-item"><a href="movie-page-full.html">Single movie (full widht)</a></li>
-<!--                                 <li class="menu__nav-item"><a href="movie-list-left.html">Movies list (rigth sidebar)</a></li> -->
-<!--                                 <li class="menu__nav-item"><a href="movie-list-right.html">Movies list (left sidebar)</a></li> -->
-                                <li class="menu__nav-item"><a href="movie-list-full.html">Movies list (full widht)</a></li>
-                                <li class="menu__nav-item"><a href="single-cinema.html">Single cinema</a></li>
-                                <li class="menu__nav-item"><a href="cinema-list.html">Cinemas list</a></li>
-                                <li class="menu__nav-item"><a href="trailer.html">Trailers</a></li>
-<!--                                 <li class="menu__nav-item"><a href="rates-left.html">Rates (rigth sidebar)</a></li> -->
-<!--                                 <li class="menu__nav-item"><a href="rates-right.html">Rates (left sidebar)</a></li> -->
-                                <li class="menu__nav-item"><a href="rates-full.html">Rates (full widht)</a></li>
-                                <li class="menu__nav-item"><a href="offers.html">Offers</a></li>
-                                <li class="menu__nav-item"><a href="contact.html">Contact us</a></li>
-<!--                                 <li class="menu__nav-item"><a href="404.html">404 error</a></li> -->
-                                <li class="menu__nav-item"><a href="coming-soon.html">Coming soon</a></li>
-                                <li class="menu__nav-item"><a href="login.html">Login/Registration</a></li>
+<!--                                 <li class="menu__nav-item"><a href="movie-page-left.jsp">Single movie (rigth sidebar)</a></li> -->
+<!--                                 <li class="menu__nav-item"><a href="movie-page-right.jsp">Single movie (left sidebar)</a></li> -->
+                                <li class="menu__nav-item"><a href="movie-page-full.jsp">Single movie (full widht)</a></li>
+<!--                                 <li class="menu__nav-item"><a href="movie-list-left.jsp">Movies list (rigth sidebar)</a></li> -->
+<!--                                 <li class="menu__nav-item"><a href="movie-list-right.jsp">Movies list (left sidebar)</a></li> -->
+                                <li class="menu__nav-item"><a href="movie-list-full.jsp">Movies list (full widht)</a></li>
+                                <li class="menu__nav-item"><a href="single-cinema.jsp">Single cinema</a></li>
+                                <li class="menu__nav-item"><a href="cinema-list.jsp">Cinemas list</a></li>
+                                <li class="menu__nav-item"><a href="trailer.jsp">Trailers</a></li>
+<!--                                 <li class="menu__nav-item"><a href="rates-left.jsp">Rates (rigth sidebar)</a></li> -->
+<!--                                 <li class="menu__nav-item"><a href="rates-right.jsp">Rates (left sidebar)</a></li> -->
+                                <li class="menu__nav-item"><a href="rates-full.jsp">Rates (full widht)</a></li>
+                                <li class="menu__nav-item"><a href="offers.jsp">Offers</a></li>
+                                <li class="menu__nav-item"><a href="contact.jsp">Contact us</a></li>
+<!--                                 <li class="menu__nav-item"><a href="404.jsp">404 error</a></li> -->
+                                <li class="menu__nav-item"><a href="coming-soon.jsp">Coming soon</a></li>
+                                <li class="menu__nav-item"><a href="login.jsp">Login/Registration</a></li>
                             </ul>
                         </li>
                         <li>
                             <span class="sub-nav-toggle plus"></span>
-                            <a href="page-elements.html">Features</a>
+                            <a href="page-elements.jsp">Features</a>
                             <ul>
-                                <li class="menu__nav-item"><a href="typography.html">Typography</a></li>
-                                <li class="menu__nav-item"><a href="page-elements.html">Shortcodes</a></li>
-                                <li class="menu__nav-item"><a href="column.html">Columns</a></li>
-                                <li class="menu__nav-item"><a href="icon-font.html">Icons</a></li>
+                                <li class="menu__nav-item"><a href="typography.jsp">Typography</a></li>
+                                <li class="menu__nav-item"><a href="page-elements.jsp">Shortcodes</a></li>
+                                <li class="menu__nav-item"><a href="column.jsp">Columns</a></li>
+                                <li class="menu__nav-item"><a href="icon-font.jsp">Icons</a></li>
                             </ul>
                         </li>
                         <li>
                             <span class="sub-nav-toggle plus"></span>
-                            <a href="page-elements.html">Booking steps</a>
+                            <a href="page-elements.jsp">Booking steps</a>
                             <ul>
-                                <li class="menu__nav-item"><a href="book1.html">Booking step 1</a></li>
-                                <li class="menu__nav-item"><a href="book2.html">Booking step 2</a></li>
-                                <li class="menu__nav-item"><a href="book3-buy.html">Booking step 3 (buy)</a></li>
-                                <li class="menu__nav-item"><a href="book3-reserve.html">Booking step 3 (reserve)</a></li>
-                                <li class="menu__nav-item"><a href="book-final.html">Final ticket view</a></li>
+                                <li class="menu__nav-item"><a href="book1.jsp">Booking step 1</a></li>
+                                <li class="menu__nav-item"><a href="book2.jsp">Booking step 2</a></li>
+                                <li class="menu__nav-item"><a href="book3-buy.jsp">Booking step 3 (buy)</a></li>
+                                <li class="menu__nav-item"><a href="book3-reserve.jsp">Booking step 3 (reserve)</a></li>
+                                <li class="menu__nav-item"><a href="book-final.jsp">Final ticket view</a></li>
                             </ul>
                         </li>
                         <li>
                             <span class="sub-nav-toggle plus"></span>
-                            <a href="gallery-four.html">Gallery</a>
+                            <a href="gallery-four.jsp">Gallery</a>
                             <ul>
-                                <li class="menu__nav-item"><a href="gallery-four.html">4 col gallery</a></li>
-                                <li class="menu__nav-item"><a href="gallery-three.html">3 col gallery</a></li>
-                                <li class="menu__nav-item"><a href="gallery-two.html">2 col gallery</a></li>
+                                <li class="menu__nav-item"><a href="gallery-four.jsp">4 col gallery</a></li>
+                                <li class="menu__nav-item"><a href="gallery-three.jsp">3 col gallery</a></li>
+                                <li class="menu__nav-item"><a href="gallery-two.jsp">2 col gallery</a></li>
                             </ul>
                         </li>
                         <li>
                             <span class="sub-nav-toggle plus"></span>
-                            <a href="contact.html">Contact us</a>
+                            <a href="contact.jsp">Contact us</a>
 <!--                                <ul class="mega-menu container"> -->
 <!--                                     <li class="col-md-3 mega-menu__coloum"> -->
 <!--                                         <h4 class="mega-menu__heading">Now in the cinema</h4> -->
@@ -507,7 +507,7 @@ Start doing.'>
                                 <p>38 comments</p>
                              </li>
                              <li class="last-block">
-                                 <a href="movie-page-left.html" class="slide__link">more</a>
+                                 <a href="movie-page-left.jsp" class="slide__link">more</a>
                              </li>
                          </ul>
                      </div>
@@ -523,7 +523,7 @@ Start doing.'>
                                 <p>38 comments</p>
                              </li>
                              <li class="last-block">
-                                 <a href="movie-page-left.html" class="slide__link">more</a>
+                                 <a href="movie-page-left.jsp" class="slide__link">more</a>
                              </li>
                          </ul>
                      </div>
@@ -539,7 +539,7 @@ Start doing.'>
                                 <p>38 comments</p>
                              </li>
                              <li class="last-block">
-                                 <a href="movie-page-left.html" class="slide__link">more</a>
+                                 <a href="movie-page-left.jsp" class="slide__link">more</a>
                              </li>
                          </ul>
                      </div>
@@ -555,7 +555,7 @@ Start doing.'>
                                 <p>38 comments</p>
                              </li>
                              <li class="last-block">
-                                 <a href="movie-page-left.html" class="slide__link">more</a>
+                                 <a href="movie-page-left.jsp" class="slide__link">more</a>
                              </li>
                          </ul>
                      </div>
@@ -571,7 +571,7 @@ Start doing.'>
                                 <p>38 comments</p>
                              </li>
                              <li class="last-block">
-                                 <a href="movie-page-left.html" class="slide__link">more</a>
+                                 <a href="movie-page-left.jsp" class="slide__link">more</a>
                              </li>
                          </ul>
                      </div>
@@ -587,7 +587,7 @@ Start doing.'>
                                 <p>38 comments</p>
                              </li>
                              <li class="last-block">
-                                 <a href="movie-page-left.html" class="slide__link">more</a>
+                                 <a href="movie-page-left.jsp" class="slide__link">more</a>
                              </li>
                          </ul>
                      </div>
@@ -715,13 +715,13 @@ Start doing.'>
                         <!-- Movie variant with time -->
                             <div class="movie movie--test movie--test--dark movie--test--left">
                                 <div class="movie__images">
-                                    <a href="movie-page-left.html" class="movie-beta__link">
+                                    <a href="movie-page-left.jsp" class="movie-beta__link">
                                         <img alt='' src="http://placehold.it/424x424">
                                     </a>
                                 </div>
 
                                 <div class="movie__info">
-                                    <a href='movie-page-left.html' class="movie__title">Gravity (2013)  </a>
+                                    <a href='movie-page-left.jsp' class="movie__title">Gravity (2013)  </a>
 
                                     <p class="movie__time">91 min</p>
 
@@ -738,13 +738,13 @@ Start doing.'>
                          <!-- Movie variant with time -->
                             <div class="movie movie--test movie--test--light movie--test--left">
                                 <div class="movie__images">
-                                    <a href="movie-page-left.html" class="movie-beta__link">
+                                    <a href="movie-page-left.jsp" class="movie-beta__link">
                                     <img alt='' src="http://placehold.it/424x424">
                                     </a>
                                 </div>
 
                                 <div class="movie__info">
-                                    <a href='movie-page-left.html' class="movie__title">The Hobbit: The Desolation of Smaug (2013)  </a>
+                                    <a href='movie-page-left.jsp' class="movie__title">The Hobbit: The Desolation of Smaug (2013)  </a>
 
                                     <p class="movie__time">169 min</p>
 
@@ -761,13 +761,13 @@ Start doing.'>
                          <!-- Movie variant with time -->
                             <div class="movie movie--test movie--test--light movie--test--right">
                                 <div class="movie__images">
-                                    <a href="movie-page-left.html" class="movie-beta__link">
+                                    <a href="movie-page-left.jsp" class="movie-beta__link">
                                     <img alt='' src="http://placehold.it/424x424">
                                     </a>
                                 </div>
 
                                 <div class="movie__info">
-                                    <a href='movie-page-left.html' class="movie__title">The Hunger Games: Catching Fire (2013)   </a>
+                                    <a href='movie-page-left.jsp' class="movie__title">The Hunger Games: Catching Fire (2013)   </a>
 
                                     <p class="movie__time">146 min</p>
 
@@ -784,13 +784,13 @@ Start doing.'>
                          <!-- Movie variant with time -->
                             <div class="movie movie--test movie--test--dark movie--test--right">
                                 <div class="movie__images">
-                                    <a href="movie-page-left.html" class="movie-beta__link">
+                                    <a href="movie-page-left.jsp" class="movie-beta__link">
                                     <img alt='' src="http://placehold.it/424x424">
                                     </a>
                                 </div>
 
                                 <div class="movie__info">
-                                    <a href='movie-page-left.html' class="movie__title">Thor: The Dark World (2013) </a>
+                                    <a href='movie-page-left.jsp' class="movie__title">Thor: The Dark World (2013) </a>
 
                                     <p class="movie__time">112 min</p>
 
@@ -807,13 +807,13 @@ Start doing.'>
                          <!-- Movie variant with time -->
                             <div class="movie movie--test movie--test--dark movie--test--left">
                                 <div class="movie__images">
-                                    <a href="movie-page-left.html" class="movie-beta__link">
+                                    <a href="movie-page-left.jsp" class="movie-beta__link">
                                     <img alt='' src="http://placehold.it/424x424">
                                     </a>
                                 </div>
 
                                 <div class="movie__info">
-                                    <a href='movie-page-left.html' class="movie__title">World War Z (2013)  </a>
+                                    <a href='movie-page-left.jsp' class="movie__title">World War Z (2013)  </a>
 
                                     <p class="movie__time">116 min</p>
 
@@ -830,13 +830,13 @@ Start doing.'>
                          <!-- Movie variant with time -->
                             <div class="movie movie--test movie--test--light movie--test--left">
                                 <div class="movie__images">
-                                    <a href="movie-page-left.html" class="movie-beta__link">
+                                    <a href="movie-page-left.jsp" class="movie-beta__link">
                                     <img alt='' src="http://placehold.it/424x424">
                                     </a>
                                 </div>
 
                                 <div class="movie__info">
-                                    <a href='movie-page-left.html' class="movie__title">Prisoners (2013) </a>
+                                    <a href='movie-page-left.jsp' class="movie__title">Prisoners (2013) </a>
 
                                     <p class="movie__time">153 min</p>
 
@@ -853,13 +853,13 @@ Start doing.'>
                          <!-- Movie variant with time -->
                             <div class="movie movie--test movie--test--light movie--test--right">
                                 <div class="movie__images">
-                                    <a href="movie-page-left.html" class="movie-beta__link">
+                                    <a href="movie-page-left.jsp" class="movie-beta__link">
                                     <img alt='' src="http://placehold.it/424x424">
                                     </a>
                                 </div>
 
                                 <div class="movie__info">
-                                    <a href='movie-page-left.html' class="movie__title">This Is the End (2013)   </a>
+                                    <a href='movie-page-left.jsp' class="movie__title">This Is the End (2013)   </a>
 
                                     <p class="movie__time">107 min</p>
 
@@ -876,13 +876,13 @@ Start doing.'>
                          <!-- Movie variant with time -->
                             <div class="movie movie--test movie--test--dark movie--test--right">
                                 <div class="movie__images">
-                                    <a href="movie-page-left.html" class="movie-beta__link">
+                                    <a href="movie-page-left.jsp" class="movie-beta__link">
                                     <img alt='' src="http://placehold.it/424x424">
                                     </a>
                                 </div>
 
                                 <div class="movie__info">
-                                    <a href='movie-page-left.html' class="movie__title">The Internship (2013)  </a>
+                                    <a href='movie-page-left.jsp' class="movie__title">The Internship (2013)  </a>
 
                                     <p class="movie__time">112 min</p>
 
@@ -968,8 +968,8 @@ Start doing.'>
 <!--                             </div> -->
 <!--                         </div> -->
 <!--                         <p class="post__date">22 October 2013 </p> -->
-<!--                         <a href="single-page-left.html" class="post__title">"Thor: The Dark World" - World Premiere</a> -->
-<!--                         <a href="single-page-left.html" class="btn read-more post--btn">read more</a> -->
+<!--                         <a href="single-page-left.jsp" class="post__title">"Thor: The Dark World" - World Premiere</a> -->
+<!--                         <a href="single-page-left.jsp" class="btn read-more post--btn">read more</a> -->
 <!--                     </div> -->
 <!--                 </div> -->
 <!--                 <div class="col-sm-4 similar-wrap col--remove"> -->
@@ -984,8 +984,8 @@ Start doing.'>
 <!--                             </div> -->
 <!--                         </div> -->
 <!--                         <p class="post__date">22 October 2013 </p> -->
-<!--                         <a href="single-page-left.html" class="post__title">30th Annual Night Of Stars Presented By The Fashion Group International</a> -->
-<!--                         <a href="single-page-left.html" class="btn read-more post--btn">read more</a> -->
+<!--                         <a href="single-page-left.jsp" class="post__title">30th Annual Night Of Stars Presented By The Fashion Group International</a> -->
+<!--                         <a href="single-page-left.jsp" class="btn read-more post--btn">read more</a> -->
 <!--                     </div> -->
 <!--                 </div> -->
 <!--                 <div class="col-sm-4 similar-wrap col--remove"> -->
@@ -1000,8 +1000,8 @@ Start doing.'>
 <!--                             </div> -->
 <!--                         </div> -->
 <!--                         <p class="post__date">22 October 2013 </p> -->
-<!--                         <a href="single-page-left.html" class="post__title">Hollywood Film Awards 2013</a> -->
-<!--                         <a href="single-page-left.html" class="btn read-more post--btn">read more</a> -->
+<!--                         <a href="single-page-left.jsp" class="post__title">Hollywood Film Awards 2013</a> -->
+<!--                         <a href="single-page-left.jsp" class="btn read-more post--btn">read more</a> -->
 <!--                     </div> -->
 <!--                 </div> -->
 <!--             </div> -->
@@ -1015,25 +1015,25 @@ Start doing.'>
                 <div class="col-xs-4 col-md-2 footer-nav">
                     <ul class="nav-link">
                         <li><a href="#" class="nav-link__item">Cities</a></li>
-                        <li><a href="movie-list-left.html" class="nav-link__item">Movies</a></li>
-                        <li><a href="trailer.html" class="nav-link__item">Trailers</a></li>
-                        <li><a href="rates-left.html" class="nav-link__item">Rates</a></li>
+                        <li><a href="movie-list-left.jsp" class="nav-link__item">Movies</a></li>
+                        <li><a href="trailer.jsp" class="nav-link__item">Trailers</a></li>
+                        <li><a href="rates-left.jsp" class="nav-link__item">Rates</a></li>
                     </ul>
                 </div>
                 <div class="col-xs-4 col-md-2 footer-nav">
                     <ul class="nav-link">
-                        <li><a href="coming-soon.html" class="nav-link__item">Coming soon</a></li>
-                        <li><a href="cinema-list.html" class="nav-link__item">Cinemas</a></li>
-                        <li><a href="offers.html" class="nav-link__item">Best offers</a></li>
-                        <li><a href="news-left.html" class="nav-link__item">News</a></li>
+                        <li><a href="coming-soon.jsp" class="nav-link__item">Coming soon</a></li>
+                        <li><a href="cinema-list.jsp" class="nav-link__item">Cinemas</a></li>
+                        <li><a href="offers.jsp" class="nav-link__item">Best offers</a></li>
+                        <li><a href="news-left.jsp" class="nav-link__item">News</a></li>
                     </ul>
                 </div>
                 <div class="col-xs-4 col-md-2 footer-nav">
                     <ul class="nav-link">
                         <li><a href="#" class="nav-link__item">Terms of use</a></li>
-                        <li><a href="gallery-four.html" class="nav-link__item">Gallery</a></li>
-                        <li><a href="contact.html" class="nav-link__item">Contacts</a></li>
-                        <li><a href="page-elements.html" class="nav-link__item">Shortcodes</a></li>
+                        <li><a href="gallery-four.jsp" class="nav-link__item">Gallery</a></li>
+                        <li><a href="contact.jsp" class="nav-link__item">Contacts</a></li>
+                        <li><a href="page-elements.jsp" class="nav-link__item">Shortcodes</a></li>
                     </ul>
                 </div>
                 <div class="col-xs-12 col-md-6">
@@ -1131,4 +1131,4 @@ Start doing.'>
 		    </script>
 
 </body>
-</html>
+</jsp>
