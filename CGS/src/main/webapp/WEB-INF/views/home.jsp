@@ -8,6 +8,7 @@
 <h1>
 	Hello world!  test2222
 	test____CHI
+	error test
 </h1>
 
 <P>  The time on the server is ${serverTime}. </P>
